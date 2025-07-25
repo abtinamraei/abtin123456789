@@ -3,7 +3,7 @@
 import React from 'react';
 import { useCartStore } from '../../store/usecartstore';
 
-export default function cartItems() {
+export default function CartItems() {
   const {
     cartItems,
     removeFromCart,
